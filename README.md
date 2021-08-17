@@ -19,7 +19,9 @@ I had to create a car dealership website with 3 pages.
 
 ## Screenshots
 
-![Output](../resources/)
+![Output](resources/home.png)
+![Output](resources/car-lists.png)
+![Output](resources/car-details.png)
 
 ## Installation
 

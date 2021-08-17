@@ -1,6 +1,19 @@
 .car-details {
   padding: 10px;
 
+  .back-btn {
+    padding: 5px 10px;
+    background-color: rgb(196, 196, 196);
+    outline: transparent;
+    border: transparent;
+    margin: 10px;
+
+    &:hover {
+      background-color: #000;
+      color: white;
+    }
+  }
+
   .details {
     display: flex;
     align-items: center;
