@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    
+    a{
+        color: inherit;
+    }
+}
+
+.active{
+    text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+.home {
+  margin: 10px;
+  text-align: center;
+  
+  div{
+      justify-content: center;
+      margin: auto;
+      width: fit-content;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  a {
+    background-color: rebeccapurple;
+    padding: 5px 15px;
+    color: #fff;
+  }
+}

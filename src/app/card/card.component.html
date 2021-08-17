@@ -1,0 +1,24 @@
+<div *ngIf="cars">
+  <ul class="card-container">
+    <li *ngFor="let car of cars" class="card">
+      <a routerLink="/details/{{ car.id }}">
+        <div class="image-container">
+          <img
+            src="assets/images/{{ car.model.toLowerCase() }}.jpg"
+            alt="{{ car.model }}"
+          />
+        </div>
+        <div class="content">
+          <p>Name: {{ car.make }} {{ car.model }}</p>
+          <p>Make: {{ car.make }}</p>
+          <p>Model: {{ car.model }}</p>
+          <p>Year: {{ car.year }}</p>
+          <section class="cta-section">
+            <button>Buy</button>
+            <button>Details</button>
+          </section>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>

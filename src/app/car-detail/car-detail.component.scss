@@ -1,0 +1,15 @@
+.car-details {
+  padding: 10px;
+
+  .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+
+    .info {
+      max-width: 70vw;
+    }
+  }
+}

@@ -1,27 +1,57 @@
-# CarInfo
+# Car Info
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+## Aim
 
-## Development server
+- Mini Project from [Lithan](https://www.lithan.com/) for learning Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+I had to create a car dealership website with 3 pages.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Home page which consist of welcome component.
+- Cars List page where cars list is populated
+- Cars Details were details is viewed based on the id
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Top four cars are presented in the home page.
+- Message box is popped and hidden after 3 seconds. It stores all the previous messages until it is
 
-## Running unit tests
+## Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Output](../resources/)
 
-## Running end-to-end tests
+## Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Method 1:
 
-## Further help
+- Click on the green Code button and download zip.
+- Unzip the folder
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Method 2:
+
+**Follow this steps only if you have git installed on your machine.**
+
+- Open a terminal and write this
+  > git clone https://github.com/VAJRESH/project.git
+- This will download all file in a folder locally.
+- Navigate to the folder.
+
+After downloading the files
+
+- Open terminal in the Car Info directory and type
+  > npm install  
+  > npm start
+- This will start the server and open the output in the browser
+
+## Technologies Used
+
+- Frontend
+
+  - [HTML](https://en.wikipedia.org/wiki/HTML)
+  - [SCSS](https://sass-lang.com/guide)
+  - [Angular JS](https://angular.io/)
+
+## Contribution
+
+- No contribution is accepted

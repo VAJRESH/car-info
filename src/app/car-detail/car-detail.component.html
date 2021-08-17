@@ -1,0 +1,18 @@
+<div *ngIf="car" class="car-details">
+  <button (click)="goBack()" class="back-btn">Back</button>
+  <h2>{{ car.make }}</h2>
+  <div class="details">
+    <div class="img">
+      <img src="assets/images/{{ car.model.toLowerCase() }}.jpg" alt="" />
+    </div>
+    <div class="info">
+      <h3>{{ car.make }} {{ car.model }}</h3>
+      <p>Year: {{ car.year }}</p>
+      <p>{{ car.description }}</p>
+      <article>{{ car.details }}</article>
+      <section class="cta-section">
+        <button>Buy</button>
+      </section>
+    </div>
+  </div>
+</div>
